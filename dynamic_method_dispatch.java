@@ -15,3 +15,10 @@ class Sub extends Sup{
         obj1.display();
     }
 }
+
+/*Dynamic Method Dispatch
+ 1. Method Resolution at Runtime
+ 2. Involves Inheritance and Overriding
+ 3. Enables Polymorphism
+ 4. Supports Method Overloading
+ */

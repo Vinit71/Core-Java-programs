@@ -1,14 +1,14 @@
-class Student {
+class CopyStudent {
     String name;
 
     // Parameterized constructor
-    Student(String name) {
+    CopyStudent(String name) {
         this.name = name;
     
     }
 
     // Copy constructor
-    Student(Student other) {
+    CopyStudent(CopyStudent other) {
         this.name = other.name;
     }
 
@@ -17,13 +17,13 @@ class Student {
     }
 }
 
-class Main {
+class CopyConMain {
     public static void main(String st[]) {
         // Creating an object using the parameterized constructor
-        Student originalStudent = new Student("Vinit");
+        CopyStudent originalStudent = new CopyStudent("Vinit");
 
         // Creating a new object by copying values from the original object using the 'copy constructor'
-        Student copiedStudent = new Student(originalStudent);
+        CopyStudent copiedStudent = new CopyStudent(originalStudent);
 
         System.out.println("Original Student: Name - " + originalStudent.getName());
         System.out.println("Copied Student: Name - " + copiedStudent.getName());

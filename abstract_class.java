@@ -7,12 +7,12 @@ abstract class Abstractclass{
     }
 }
 
-class Main extends Abstractclass{
+class AbsMain extends Abstractclass{
     void info(){
         System.out.println("Defining Method");
     };
     public static void main(String st[]){
-        Main obj = new Main();
+        AbsMain obj = new AbsMain();
         obj.info();
         obj.display();
     }

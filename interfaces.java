@@ -1,9 +1,9 @@
-interface Details{
+interface Pr{
     void displayName();
     void printale();
 }
 
-class InterMain implements Details{
+class InterMain implements Pr{
     public void displayName(){
         System.out.println("Name: Vinit Kumar");
     }

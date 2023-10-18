@@ -18,3 +18,11 @@ class Exception_throws {
     }
 }
 
+/* --Throws Keyword--
+ * throws is used in the method declaration to indicate that a method might throw a specific type of exception.
+ * When a method uses throws, it signals that the method does not handle the exception internally and expects the caller to handle it.
+ 
+ * --Throw Keyword--
+ * throw is used to explicitly throw an exception within a method or a block of code.
+ * throw is typically used inside the try block to handle exceptional situations programmatically.
+ */

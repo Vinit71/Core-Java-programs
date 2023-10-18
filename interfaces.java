@@ -3,7 +3,7 @@ interface Details{
     void printale();
 }
 
-class Main implements Details{
+class InterMain implements Details{
     public void displayName(){
         System.out.println("Name: Vinit Kumar");
     }
@@ -12,7 +12,7 @@ class Main implements Details{
     }
 
     public static void main(String st[]){
-        Main obj = new Main();
+        InterMain obj = new InterMain();
         obj.displayName();
         obj.printale();
     }

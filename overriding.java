@@ -10,7 +10,7 @@ class Dog extends Animal{
     }
 }
 
-class Main{
+class RidingMain{
     public static void main(String st[]){
         Animal animal = new Animal();
         Dog dog = new Dog();

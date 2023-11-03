@@ -1,7 +1,7 @@
 class StringExample{
     public static void main(String st[]){
     //  assining value by reffernce object of String
-        String str1 = "Vinit";
+        String str1 = "Vinit ";
         System.out.print(str1);
 
      // a String object is created using the new keyword, and the value "Hello" is assigned to it.
